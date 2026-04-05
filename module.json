@@ -24,8 +24,7 @@
   },
   "authors": [
     {
-      "name": "Dahn the Indifferent",
-      "flags": {}
+      "name": "Dahn the Indifferent"
     }
   ],
   "packs": [
@@ -34,24 +33,33 @@
       "label": "DS : Journal",
       "path": "packs/ds--journal",
       "type": "JournalEntry",
+      "system": "D35E",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "D35E",
-      "flags": {}
+      }
     },
     {
       "name": "ds--npc",
       "label": "DS : NPC",
       "path": "packs/ds--npc",
       "type": "Actor",
+      "system": "D35E",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ds--roll-table",
+      "label": "DS : Roll Table",
+      "path": "packs/ds--roll-table",
+      "type": "RollTable",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "D35E",
-      "flags": {}
+      "system": "D35E"
     }
   ]
 }
