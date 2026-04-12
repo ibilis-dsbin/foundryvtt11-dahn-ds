@@ -60,6 +60,17 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "ds--scene",
+      "label": "DS : Scene",
+      "path": "packs/ds--scene",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E"
     }
   ]
 }
